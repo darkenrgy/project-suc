@@ -1,0 +1,290 @@
+/*  Styles */
+style
+ {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #f5f4f4;
+    background-color: #0ec5ea6e;
+    position: relative;
+  }
+  /* Header Section */
+  
+  header {
+    background-color: #fcfeff;
+    color: #0ac0f3;
+    
+    text-align: center;
+    
+       
+  }
+  #alumni{
+    display: flex;
+    float: right;
+    margin-right: 10px;
+    margin-top: 60px;
+    border: 1px solid red;
+    
+  }
+  #alumni:hover{
+    background-color: #0ac0f3;
+  }
+  header nav ul {
+    list-style: none;
+    margin: 2;
+    padding: 4;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;  
+    height: 40px;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+    border-radius: 6px;
+    }
+  
+  header nav a {
+    color: #f8f8f8;
+    text-decoration: none;
+    
+  }  
+  header nav li:hover{
+    background-color: #f7f7a1ba;
+  }
+     .subnevbackground{
+      
+        background-color: rgba(50, 5, 250, 0.729);
+      
+     }
+    body::after {
+      /* Set the new background color */
+      background-color: rgb(204, 51, 51);
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: -1;
+      opacity: 0;
+      transition: opacity 300ms;
+    }
+    
+    
+ .sec1{
+  /*display: grid;
+  grid-template-columns: repeat(3,1fr);*/
+  
+  background-color: #0ac0f3;
+  height: fit-content;
+  padding: 20px;
+  margin: 1x;
+  margin-bottom: 20px;
+}
+
+/*.slide-image{ 
+
+  background-color: #f2f2f2;
+  padding: 5px;
+  margin: 5px;
+  border: 0.5px solid #ccc;
+  border-radius: 10px;
+  
+  
+
+}*/
+
+
+</style>
+/* Styles for the chatbot container */
+#chatbot-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  width: 300px;
+}
+
+/* Styles for the conversation window */
+#conversations {
+  padding: 10px;
+}
+
+/* Styles for the message list */
+#message-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Styles for the user input field */
+#user-input {
+  width: 25%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Styles for the send button */
+#send-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styles for the send button on hover */
+#send-button:hover {
+  background-color: #c41ea5;
+}
+.mmb{display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  list-style: none;
+  padding: 40px;
+  margin: 10px ;
+  margin-left: 0;
+  margin-right: 0;
+  
+}
+.textsize{
+  font-size: 100px;
+}
+.apply{
+  width: 100mm;
+  padding: 10px;
+  margin: 10px ;
+  background-color: #f0f0f0;
+border-radius: 10px;
+border-style: dashed;
+border-top-left-radius: 10px;
+  border: 0px solid rgb(250, 246, 246);
+  color: #ddd;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.apply a{
+  text-decoration: wavy;
+  color: #000;
+  
+}
+.apply:hover{
+  background-color: #f70606;
+}
+.article{
+  color:rgba(4, 92, 192, 0.985);
+  background-color: white;
+  border:0px white solid;
+  margin: auto;
+  padding:auto;
+}
+.hedgrade{
+  text-align: center;
+  padding: 40px;
+  margin: 10px ;
+  margin-left: 0;
+  margin-right: 0;
+  
+}
+.grade{
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.hedintro{
+  text-align: center;
+  background-color: #0ac0f3;
+  padding: 40px;
+  margin: 10px ;
+  margin-left: 0;
+  margin-right: 0;
+}
+.intro{
+  padding: 10px;
+  margin-left: 7px;
+  margin-right: 7px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logof i {
+  width: 40px;
+  height: 40px;
+}
+.HEDLINK{
+  
+  text-align: center;
+  padding: 40px;
+  margin: 10px ;
+  margin-left: 0;
+  margin-right: 0;
+
+}
+.LINK{padding: 10px;
+  margin-left: 7px;
+  margin-right: 7px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.qcl{
+  text-align: left;
+  list-style-image:URL( 
+    'file:///D:/project%20suc/telegram-line.png'); 
+                list-style-position: inside; 
+            
+}
+.qcl li a {
+  color: rgb(186, 219, 23);
+}
+.qcl li a :hover{
+  background-color: #c41ea5;
+}
+.foothed{
+  color: white;
+  padding: 40px;
+  margin: 60px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  background-color: #1f1f21c4;
+  
+}
+.logoh{
+  text-align: center;
+}
+
+.mgn{
+  padding: 10px;
+  margin-top: 0px;
+  margin-left: 45.5%;
+  margin-right: 45.5%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  
+}
+.pag{
+  text-align: center;
+}
